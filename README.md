@@ -3,8 +3,7 @@ It’s very easy to use without modifying any code.<br>
 ![image](https://github.com/JJMM/CUSResources/raw/master/DurexKitIntr.jpg)
 
 ## How To Get Started
-###Use static library
-- 1.Open your existing project (or create a new one)
+- 1.open your existing project (or create a new one)
 - 2.Drag and drop the DurexKitExample.xcodeproj file downloaded from github previously from Finder to your project (either root or under Frameworks)
 
 - 3.In YOUR project configuration:<br>
@@ -21,10 +20,7 @@ in the Link Binary With Libraries section, add the libDurexKit.a library<br>
 - Also locate the “Always Search User Paths” value and set it to YES.
 - Finally, find the “Other Linker Flags” option, and add the value -ObjC (no quotes).
 
-### Use source directly
-1.Copy the folder named DurexKit to your project
-2.in the Compile Sources section, find the NSException+SafeKit.m,and add the value -fno-objc-arc
-We do not recommend using like this.
+
 
 ## exchange the method in NSArray,NSDictionary…
 ```objective-c
